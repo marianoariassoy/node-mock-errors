@@ -1,0 +1,13 @@
+### Listado de productos
+GET http://localhost:8080/mockingproducts
+
+### Nuevo producto
+POST http://localhost:8080/mockingproducts
+content-type: application/json
+
+{
+    "title": "Nuevo Producto",
+    "price": "100",
+    "id": "500",  
+    "stock": 2
+}
